@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>to do list</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/todo-icon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Todos</h1>
+        <div>
+            <div class="input-holder">
+                <input type="text" placeholder="Press Enter or Clicking The Button" autofocus onkeyup="todo()">
+            </div>
+            <div class="list-holder">
+                <ul class="list"></ul>
+            </div>
+        </div>
+        <div class="footer">
+            <p>2 items left</p>
+            <div class="filters">
+                <button class="filter-item">All</button>
+                <button class="filter-item">Active</button>
+                <button class="filter-item">Completed</button>
+            </div>
+        </div>
+        <p>Double click to edit a to do</p>
+    </div>
+
+    <p>watch vedio click <a href="https://www.youtube.com/watch?v=Z43SXaDPo2s" target="blank">here</a></p>
+    <!-- <section>
+        <a href="#">
+            <i class="fas fa-upload"></i>
+             upload background
+        </a>
+    </section> -->
+    <script src="script.js" async></script>
+</body>
+
+</html>
